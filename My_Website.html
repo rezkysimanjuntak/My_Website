@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>My Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/DOM.js"></script>
+</head>
+
+<body onload="typeWriter1(); typeWriter2()">
+    <nav class="navi">
+        <div class="navi-position">
+            <a class="active" href="My_Website.html">Home</a>
+            <a href="Login.html">Logout</a>
+        </div>
+    </nav>
+
+    <header class="head">
+        <div id="main">
+            <h1>My Personal Information</h1>
+        </div>
+    </header>
+
+    <article class="art">
+        <img src="images/profile.png" alt="Profile" width="130vw">
+        <div id="main">
+            <marquee behavior="slide" direction="up">
+                <h2>Rezky Prayitno Simanjuntak</h2>
+            </marquee>
+            <marquee behavior="slide" direction="up">Junior Web Developer</marquee>
+        </div>
+    </article>
+
+    <aside class="ass">
+        <div>
+            <table>
+                <tr>
+                    <td height="3px" width="25%" style="background-color: #00ab57;"></td>
+                    <td height="3px" width="25%" style="background-color: #00afc1;" colspan="2"></td>
+                    <td height="3px" width="25%" style="background-color: #ffb3c9;"></td>
+                    <td height="3px" width="25%" style="background-color: #000000;"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <h4>My Story</h4>
+                    </td>
+                    <td width="1%" rowspan="4"></td>
+                    </td>
+                    <td>
+                        <h4>Personal Information</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td rowspan="4">
+                        <p id="text1"></p>
+                        <br>
+                        <p id="text2"></p>
+                    </td>
+                    <td>
+                        <p>Age: <b id="age"></b></p>
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <p>Phone: <b id="phone"></b></p>
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <p>Email: <b id="email"></b></p>
+                        <hr>
+                    </td>
+                </tr>
+                <tr height="80px">
+                    <td></td>
+                </tr>
+            </table>
+            <table style="width: 50%;">
+
+            </table>
+        </div>
+    </aside>
+
+    <footer class="foot">
+        <div>
+            <table>
+                <tr>
+                    <h3>Find me in!</h3>
+                </tr>
+                <tr>
+                    <td>
+                        <a>
+                            <img src="images/github.png" alt="GitHub" width="40px" onclick="redirect_github();">
+                        </a>
+                    </td>
+                    <td>
+                        <img src="images/linkedin.png" alt="LinkedIn" width="40px" onclick="redirect_linkedIn();">
+                    </td>
+                    <td>
+                        <img src="images/twitter.png" alt="Twitter" width="40px" onclick="redirect_twitter();">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+</body>
+
+</html>

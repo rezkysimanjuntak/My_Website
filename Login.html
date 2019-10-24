@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Login Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/DOM.js"></script>
+</head>
+
+<body class="container" style="background-image: url(images/background.png);">
+    <div>
+        <h1>Login Page</h1>
+        <form>
+            <div>
+                <table align="center" frame="box">
+                    <tr>
+                        <td>
+                            <label for="username"><b>Username :</b></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="username" id="username" maxlength="64">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password"><b>Password :</b></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="password" name="password" id="password" maxlength="64">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="Forgot_Password.html">Forgot Username or Password ?</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" value="Login" onclick="validate();">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>
+</body>
